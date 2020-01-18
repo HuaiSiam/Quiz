@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/quiz.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>       
+        <h2 id="result_text">Your Score is: <span id="results">0</span> </h2>
+        <h2 id="grade">Your Grade is: <span id="grade_results"></span></h2>
+        <div class="quiz-container">
+            <div id="quiz"></div>
+        </div>
+        
+        <div class="btnTop">
+            <button class="btn btn-next">Next Quiz</button>
+            <button class="btn btn-submit">Submit Quiz</button>
+        </div>
+        
+        <div class="modal">
+            <div class="alert alert-danger text-center">
+                <span class="alert_text"></span>
+                <button class="btn btn-retry"></button>
+            </div>
+        </div>
+    </body>   
+    <script src="js/quiz.js"></script>
+</html>
